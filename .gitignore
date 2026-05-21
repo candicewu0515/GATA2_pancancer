@@ -1,0 +1,7 @@
+data/
+figures/
+*.rds
+*.RData
+.DS_Store
+.Rhistory
+.Rproj.user/
