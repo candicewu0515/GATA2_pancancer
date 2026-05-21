@@ -9,10 +9,11 @@ Scripts in `scripts/` run sequentially (00–14):
 
 ## Data sources
 - TCGA Pan-Cancer Atlas: UCSC Xena (https://xena.ucsc.edu/)
-- CCLE: DepMap 26Q1 (https://depmap.org/)
+- CCLE: DepMap Public 26Q1 (https://depmap.org/)
 - NCI-60: CellMiner v2.10
 - CPTAC proteomics: UALCAN
 - MSigDB Hallmark v2024.1.Hs
+- TME signatures: 14-signature Mariathasan-style panel (see `scripts/13_fig9_estimate_tme.R`)
 
 ## Requirements
 

@@ -21,7 +21,7 @@
 #
 # Strategy:
 #   - Use the `estimate` R package on the PANCAN matrix per cancer.
-#   - For TME signatures, use a 15-signature panel (Mariathasan 2018 style):
+#   - For TME signatures, use a 14-signature panel (Mariathasan 2018 style):
 #       CD8 T effector, Antigen processing, Immune checkpoint,
 #       Mismatch repair, Nucleotide excision repair, DNA damage response,
 #       DNA replication, Base excision repair, Pan-fibroblast TGFb,
