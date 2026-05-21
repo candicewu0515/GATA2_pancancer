@@ -1,7 +1,10 @@
 data/
 figures/
+manuscript/
 *.rds
 *.RData
 .DS_Store
 .Rhistory
 .Rproj.user/
+.claude/
+Rplots.pdf
