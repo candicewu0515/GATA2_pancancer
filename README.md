@@ -7,6 +7,14 @@ Scripts in `scripts/` run sequentially (00–14):
 - 00–04: setup, data download, QC, sample cleaning, GATA2 extraction
 - 05–14: Figures 1–10 and multi-omics validation
 
+## Results
+Numeric outputs behind every figure (Cox results, GSEA tables, Spearman
+correlations, CIBERSORT fractions, methylation correlations, etc.) are
+archived under `data/03_results/` as `Fig*_*.csv`. Raw downloads
+(`data/01_raw/`, ~16 GB) and intermediate cleaned objects
+(`data/02_clean/`) are not redistributed; regenerate them with scripts
+01–04.
+
 ## Data sources
 - TCGA Pan-Cancer Atlas: UCSC Xena (https://xena.ucsc.edu/)
 - CCLE: DepMap Public 26Q1 (https://depmap.org/)
